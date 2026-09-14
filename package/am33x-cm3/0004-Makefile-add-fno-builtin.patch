@@ -35,7 +35,7 @@ index 9146a8b6a7da..b4869c494593 100644
  	-Wdeclaration-after-statement -fno-delete-null-pointer-checks \
  	-Wempty-body -fno-strict-overflow -fno-stack-protector \
 -	-fno-pie -g -I$(INCLUDES) -O2 -MD
-+	-fno-pie -fno-builtin -g -I$(INCLUDES) -O2 -MD
++	-fno-pie -fno-builtin -std=gnu11 -g -I$(INCLUDES) -O2 -MD
  LDFLAGS =-nostartfiles -fno-exceptions -Tfirmware.ld
  
  EXECUTABLE=am335x-pm-firmware.elf
