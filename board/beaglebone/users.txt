@@ -1,0 +1,1 @@
+gmt51dv -1 gmt51dv -1 =bbbpassword /home/gmt51dv /bin/sh sudo gmt51dv User
