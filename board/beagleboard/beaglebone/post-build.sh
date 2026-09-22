@@ -3,6 +3,7 @@ set -eu
 
 BOARD_DIR="$(dirname "$0")"
 
-cp "${BOARD_DIR}/uEnv.txt" "${BINARIES_DIR}/uEnv.txt"
+#cp "${BOARD_DIR}/uEnv.txt" "${BINARIES_DIR}/uEnv.txt"
 
-install -m 0644 -D "${BOARD_DIR}/extlinux.conf" "${BINARIES_DIR}/extlinux/extlinux.conf"
+#install -m 0644 -D "${BOARD_DIR}/extlinux.conf" "${BINARIES_DIR}/extlinux/extlinux.conf"
+cp "${BOARD_DIR}/args" "${BINARIES_DIR}/args"
