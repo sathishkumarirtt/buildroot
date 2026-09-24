@@ -4,8 +4,8 @@
 #
 ################################################################################
 
-SKOPEO_VERSION = 1.24.0
-SKOPEO_SITE = $(call github,containers,skopeo,v$(SKOPEO_VERSION))
+SKOPEO_VERSION = 1.24.1
+SKOPEO_SITE = $(call github,podman-container-tools,skopeo,v$(SKOPEO_VERSION))
 
 SKOPEO_LICENSE = Apache-2.0
 SKOPEO_LICENSE_FILES = LICENSE
